@@ -27,6 +27,15 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <script>  
+    $(function(){ 
+      $('#header').load('header.html');  
+      $("#footer").load("footer.html");  
+    }); 
+    </script> 
 
   
 </head>
@@ -34,31 +43,8 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center">
-      <h1 href="index.html" class="logo me-auto"><img src="assets/img/schoollogo.png" alt="" class="img-fluid">
-        NORTH STAR ENGLISH SECONDARY SCHOOL</h1>
-
-      <!-- <h1 class="logo me-auto"><a href="index.html">NORTH STAR ENGLISH SECONDARY SCHOOL</a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-
-          <li><a href="about.html"><span>About</span> </a>
-         
-          </li>
-         
-          <li><a href="contact.html">Contact</a></li>
-          
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+  <div id="header"></div>
+  <!-- End Header -->
 
   <main id="main">
 
@@ -118,9 +104,9 @@
 
           <div class="col-lg-6">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/me.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/rcsir.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Siraj Sharma</h4>
+                <h4>Ram Chandra Pokhrel</h4>
                 <span>Chief Executive Officer</span>
                  <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
@@ -168,7 +154,7 @@
 
           <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/me2.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/me.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Bishal Aryal</h4>
                 <span>Accountant</span>
@@ -193,55 +179,8 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <h3>NORTH STAR ENGLISH SECONDARY SCHOOL</h3>
-              <p>
-                Hariyatar, Chispani, Kathmandu, Nepal<br><br>
-                <strong>Phone:</strong> +977 9841597091<br>
-                <strong>Email:</strong> northstarschool77@gmail.com<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="https://twitter.com/" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="https://www.facebook.com/nses.school" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="www.instagram.com" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="www.skype.com" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="www.linkedin.com" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              
-            </ul>
-          </div>
-
-    
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Dear Parents, looking for a dedicated school at your area, Tarakeshwor ? Fill up the form for new admission</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Submit">
-            </form>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-
-  </footer><!-- End Footer -->
+  <div id="footer"></div>
+  <!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
